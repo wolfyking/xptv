@@ -6,7 +6,7 @@ let appConfig = {
     ver: 1,
     title: '花都',
     // abc.hdys.top
-    site: 'https://hd.hdys3.com',
+    site: 'https://hd.hdys2.com',
 }
 
 async function getConfig() {
