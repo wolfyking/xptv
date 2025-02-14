@@ -8,7 +8,7 @@ let appConfig = {
     // 58thz.com/
     // site: 'http://6172ck.cc',
     home: 'https://huangsecangku.net',
-    site: 'http://6172ck.cc/',
+    site: 'http://6172ck.cc',
 }
 
 async function getConfig() {
