@@ -6,8 +6,8 @@ let appConfig = {
     ver: 1,
     title: '桃花族',
     // 58thz.com/
-    // site: 'http://6172ck.cc/',
-    home: 'https://huangsecangku.net/',
+    // site: 'http://6172ck.cc',
+    home: 'https://huangsecangku.net',
     site: 'http://6172ck.cc/',
 }
 
