@@ -1,16 +1,13 @@
 const cheerio = createCheerio()
 
-// ================= 配置中心 =================
-const CRAWLER_CONFIG = {
-  UA: 'Mozilla/5.0 (iPhone; CPU iPhone OS 18_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.1 Mobile/15E148 Safari/604.1',
-  site: 'https://041.bndmpsjx.com',
-  retries: 3,
-  timeout: 10000,
-  cacheTTL: 3600,
-  proxyPool: [
-    'http://proxy1.example.com:8080',
-    'http://proxy2.example.com:8080'
-  ]
+const UA: 'Mozilla/5.0 (iPhone; CPU iPhone OS 18_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.1 Mobile/15E148 Safari/604.1',
+ 
+let appConfig = {
+    ver: 1,
+    title: '91Jav',
+    // 91jav.fun
+    site: 'https://041.bndmpsjx.com',
+}
 }
 
 // ================= 工具函数 =================
