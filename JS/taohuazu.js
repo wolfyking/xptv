@@ -5,10 +5,10 @@ const UA = 'Mozilla/5.0 (iPhone; CPU iPhone OS 18_1 like Mac OS X) AppleWebKit/6
 let appConfig = {
     ver: 1,
     title: '桃花族',
-    // 58thz.com/
-    // site: 'http://6172ck.cc',
-    home: 'http://6173ck.cc',
-    site: 'http://6172ck.cc',
+    // http://59thz.com/forum.php
+    // site: 'http://6174ck.cc',
+    home: 'http://hscangku.com',
+    site: 'http://920ck.us',
 }
 
 async function getConfig() {
