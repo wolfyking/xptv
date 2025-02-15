@@ -5,7 +5,7 @@ const UA = 'Mozilla/5.0 (iPhone; CPU iPhone OS 18_1 like Mac OS X) AppleWebKit/6
 let appConfig = {
     ver: 1,
     title: '桃花族',
-    // http://59thz.com/forum.php
+    // http://hscangku.com
     // site: 'http://6174ck.cc',
     home: 'http://hscangku.com',
     site: 'http://920ck.us',
