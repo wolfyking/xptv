@@ -10,7 +10,6 @@ let appConfig = {
 }
 }
 
-// ================= 工具函数 =================
 const safeFetch = async (url, options = {}) => {
   let retry = 0
   const controller = new AbortController()
@@ -43,7 +42,6 @@ const sanitizeInput = (text) => {
   return text.replace(/[^a-zA-Z0-9\u4e00-\u9fa5\-_]/g, '').trim()
 }
 
-// ================= 核心逻辑 =================
 async function getConfig() {
   return jsonify({
     ...CRAWLER_CONFIG,
@@ -106,7 +104,6 @@ async function getCards(ext) {
   }
 }
 
-// ================= 辅助函数 =================
 function extractCover($element) {
   const img = $element.find('img').first()
   const src = img.attr('data-src') || img.attr('src') || ''
@@ -133,7 +130,6 @@ function handleError(error, context = '') {
   })
 }
 
-// ================= 播放处理 =================
 const HLS_REGEX = /var\s+hlsUrl\s*=\s*"(.*?)";/g
 
 async function getTracks(ext) {
@@ -155,7 +151,6 @@ async function getTracks(ext) {
   }
 }
 
-// ================= 搜索优化 =================
 async function search(ext) {
   const { text, page = 1 } = argsify(ext)
   const keyword = encodeURIComponent(sanitizeInput(text))
